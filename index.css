@@ -1,0 +1,200 @@
+.nav	{
+	background: #ffffff;
+	text-align: center;
+	margin: auto;
+	padding: 15% 0 15% 0;
+}
+
+.col1	{
+	background: #ffffff;
+    padding: 3% 0 3% 0;
+    display: inline-block;
+    text-align: center;
+}
+
+img	{
+	max-height: 85%;
+	max-width: 85%;
+}
+
+.navbar 	{
+	font-size: 12pt;
+	text-align: justify;
+	padding: 8% 0 0 40%;
+}
+
+.insta	{
+	width: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    background-color: #f9f9f9;
+    min-width: 245px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul	{
+	list-style-type: none;
+}
+
+.carousel-inner > .item > img   {
+    margin: auto;
+    height: 600px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.copyright  {
+    font-size: 8pt;
+    color: gray;
+    text-align: center;
+}
+
+#carousel-custom {
+    margin: auto;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: auto;
+    width: 10%;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+    object-fit: cover;
+    width:  60px;
+    height: 60px;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+
+h1  {
+    font-family: "Copperplate", Palatino, serif;
+    text-align: center;
+    font-size: 22pt;
+}
+.indicatorWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mh{
+    width: 300px;
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery {
+    border:  1px solid #FFF;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.galleries    {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+#galleriesHeader, #aboutHeader, #contactHeader{
+    margin-bottom: 50px;
+}
+ 
+ .form {
+     padding-top: 50px;
+     display: inline-block;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+#about    {
+    text-align: justify;
+}
+    
+.input {
+ width: 100%;   
+}
+
+#button{
+color: #95bbe6;
+font-weight:bold;
+position:absolute;
+top: 102%;
+left:46%;
+display: inline-block
+
+}
+
+#sportchoice  {
+color: #95bbe6;
+}  
+
+#messages {
+  width: 400px;
+ height: 150px;
+}
+.form-group{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#forms{
+    float: right;
+}
